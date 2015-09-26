@@ -61,3 +61,11 @@ maxmode="1"
 * rsc=“1” => RSC网卡驱动模式
 * advinacc="1” => 流量方向加速
 * maxmode="1”  => 最大传输模式
+* 然后退出保存
+
+下面重新启动锐速的服务
+
+停止
+/serverspeeder/bin/serverSpeeder.sh stop
+启动
+/serverspeeder/bin/serverSpeeder.sh start
